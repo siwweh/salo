@@ -31,7 +31,6 @@ public class Salo implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModEffects.registerModEffects();
 		LOGGER.info("Salo mod initialize");
 		Registry.register(Registry.STATUS_EFFECT, new Identifier("salo", "small"), SMALL);
 		Registry.register(Registry.STATUS_EFFECT, new Identifier("salo", "buff"), BUFF);
