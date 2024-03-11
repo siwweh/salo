@@ -29,6 +29,7 @@ public class ModItems {
     public static final Item AEGISALO;
     public static final Item STONE_SALO;
     public static final Item TRANSPARENT_SALO;
+    public static final Item DEAD_SALO;
 
 
 
@@ -71,6 +72,9 @@ public class ModItems {
         TRANSPARENT_SALO = registerItem("transparent_salo", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
                 FoodComponent.Builder().hunger(5).saturationModifier(8f).meat().statusEffect(new
                 StatusEffectInstance(StatusEffects.INVISIBILITY, 3600, 0), 1.0f).alwaysEdible().build())));
+        DEAD_SALO = registerItem("dead_salo", new DeadSaloItem(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
+                FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().meat().statusEffect(new
+                StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 20, 20), 1.0f).build())));
     }
 
     private static Item registerItem(String name, Item item){

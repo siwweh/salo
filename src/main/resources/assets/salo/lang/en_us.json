@@ -13,11 +13,13 @@
   "item.salo.super_small_salo" : "Super small salo",
   "item.salo.super_big_salo" : "Super big salo",
   "item.salo.stone_salo" : "Stone salo",
-  "item.salo.aegisalo" : "Aegisalo",
+  "item.salo.aegisalo" : "Salo of Undying",
   "item.salo.transparent_salo" : "Transparent salo",
+  "item.salo.dead_salo" : "Dead salo",
 
   "effect.salo.undying": "Undying",
   "effect.salo.small": "Small",
+  "effect.salo.buff": "BUFF",
 
   "death.attack.salokadze" : "%1$s became Pes-Patron",
   "death.attack.overfed" : "%1$s wasn't CaseOh",

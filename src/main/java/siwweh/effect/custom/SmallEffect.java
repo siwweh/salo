@@ -1,23 +1,13 @@
-package siwweh.effects;
+package siwweh.effect.custom;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;
-import net.minecraft.entity.attribute.EntityAttribute;
-import net.minecraft.entity.attribute.EntityAttributeInstance;
-import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.nbt.NbtCompound;
-import virtuoel.pehkui.Pehkui;
 import virtuoel.pehkui.api.ScaleData;
-import virtuoel.pehkui.api.ScaleModifiers;
-import virtuoel.pehkui.api.ScaleOperations;
 import virtuoel.pehkui.api.ScaleTypes;
-import virtuoel.pehkui.util.ScaleUtils;
-
-import java.util.Map;
 
 public class SmallEffect extends StatusEffect {
     public SmallEffect() {
