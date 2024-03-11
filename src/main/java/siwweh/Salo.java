@@ -8,7 +8,6 @@ import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import siwweh.block.ModBlocks;
-import siwweh.effect.ModEffects;
 import siwweh.effect.custom.BUFFEffect;
 import siwweh.effect.custom.SmallEffect;
 import siwweh.effect.custom.UndyingEffect;
