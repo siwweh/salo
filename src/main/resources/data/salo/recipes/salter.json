@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "@" : {
+      "tag" : "minecraft:wooden_slabs"
+    },
+    "$" : {
+      "item" : "salo:stone_salt"
+    }
+  },
+  "pattern": [
+    "#@#",
+    "#$#",
+    "#@#"
+  ],
+  "result": {
+    "item": "salo:salter"
+  }
+}

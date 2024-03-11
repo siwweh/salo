@@ -1,0 +1,34 @@
+{
+  "item.salo.salo" : "Salo",
+  "item.salo.salt" : "Salt",
+  "item.salo.golden_salo" : "Golden salo",
+  "item.salo.smoked_salo" : "Smoked salo",
+  "item.salo.bacon" : "Bacon.",
+  "item.salo.cooked_salo" : "Cooked salo",
+  "item.salo.living_salo" : "Living salo",
+  "item.salo.salokadze" : "Salokadze",
+  "item.salo.rotten_salo" : "Rotten salo",
+  "item.salo.vegan_salo" : "Vegan salo",
+  "item.salo.ender_salo" : "Ender salo",
+  "item.salo.super_small_salo" : "Super small salo",
+  "item.salo.super_big_salo" : "Super big salo",
+  "item.salo.stone_salo" : "Stone salo",
+  "item.salo.aegisalo" : "Aegisalo",
+  "item.salo.transparent_salo" : "Transparent salo",
+
+  "effect.salo.undying": "Undying",
+  "effect.salo.small": "Small",
+
+  "death.attack.salokadze" : "%1$s became Pes-Patron",
+  "death.attack.overfed" : "%1$s wasn't CaseOh",
+  "death.attack.stone" : "%1$s ate a stone",
+  "death.attack.salokadze.player" : "%1$s became Pes-Patron",
+  "death.attack.overfed.player" : "%1$s wasn't CaseOh",
+  "death.attack.stone.player" : "%1$s ate a stone",
+
+
+  "block.salo.stone_salt" : "Stone salt",
+
+  "itemGroup.salo.salo_food" : "Salo mod",
+  "itemGroup.salo.salo_block" : "Salo mod blocks"
+}

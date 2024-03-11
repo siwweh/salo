@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "salo",
+	"version": "${version}",
+	"name": "Salo",
+	"description": "Mod that adds different kinds of salo to minecraft",
+	"authors": [
+		"Siwweh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "The MIT License",
+	"icon": "assets/salo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"siwweh.Salo"
+		],
+		"client": [
+			"siwweh.SaloClient"
+		],
+		"fabric-datagen": [
+			"siwweh.SaloDataGenerator"
+		]
+	},
+	"mixins": [
+		"salo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

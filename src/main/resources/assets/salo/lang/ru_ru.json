@@ -1,0 +1,33 @@
+{
+  "item.salo.salo" : "Сало",
+  "item.salo.salt" : "Соль",
+  "item.salo.cooked_salo" : "Жареное сало",
+  "item.salo.smoked_salo" : "Копчёное сало",
+  "item.salo.golden_salo" : "Золотое сало",
+  "item.salo.bacon" : "Bacon.",
+  "item.salo.living_salo" : "Живое сало",
+  "item.salo.salokadze" : "Салокадзе",
+  "item.salo.rotten_salo" : "Гнилое сало",
+  "item.salo.super_small_salo" : "Сало Шевцова",
+  "item.salo.ender_salo" : "Эндер сало",
+  "item.salo.vegan_salo" : "Веганское сало",
+  "item.salo.super_big_salo" : "Супер большое сало",
+  "item.salo.aegisalo": "Аегисало",
+  "item.salo.stone_salo" : "Каменное сало",
+  "item.salo.transparent_salo" : "Прозрачное сало",
+
+  "effect.salo.small": "Уменьшен",
+  "effect.salo.undying": "Бессмертен",
+
+  "block.salo.stone_salt": "Каменная соль",
+
+  "itemGroup.salo.salo_food" : "Мод на сало",
+  "itemGroup.salo.salo_block" : "Мод на сало блоки",
+
+  "death.attack.salokadze": "%1$s опёспатронился",
+  "death.attack.overfed": "%1$s съел слишком много свинины",
+  "death.attack.stone" : "%1$s съел камень",
+  "death.attack.salokadze.player": "%1$s опёспатронился",
+  "death.attack.overfed.player": "%1$s съел слишком много свинины",
+  "death.attack.stone.player": "%1$s съел камень"
+}

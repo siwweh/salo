@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "" : {"model": "salo:block/stone_salt"}
+  }
+}
