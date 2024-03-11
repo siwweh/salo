@@ -20,11 +20,21 @@ public class BUFFEffect extends StatusEffect {
 
 
     @Override
+    public void onApplied(LivingEntity entity, AttributeContainer attributes, int amplifier){
+        entity.removeStatusEffect(StatusEffects.WEAKNESS);
+        entity.removeStatusEffect(StatusEffects.SLOWNESS);
+        entity.removeStatusEffect(StatusEffects.MINING_FATIGUE);
+        entity.removeStatusEffect(StatusEffects.POISON);
+    }
+
+
+    @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 1, amplifier));
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 1, amplifier));
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 1, amplifier));
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 1, amplifier));
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 1, amplifier));
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1, amplifier));
     }
 

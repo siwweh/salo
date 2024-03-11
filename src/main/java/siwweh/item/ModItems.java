@@ -30,6 +30,8 @@ public class ModItems {
     public static final Item STONE_SALO;
     public static final Item TRANSPARENT_SALO;
     public static final Item DEAD_SALO;
+    public static final Item SWEET_SALO;
+
 
 
 
@@ -46,7 +48,8 @@ public class ModItems {
         BACON = registerItem("bacon", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
                         FoodComponent.Builder().hunger(11).saturationModifier(13f).meat().build())));
         GOLDEN_SALO = registerItem("golden_salo", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                        FoodComponent.Builder().hunger(15).saturationModifier(19.5f).meat().build())));
+                        FoodComponent.Builder().hunger(15).saturationModifier(19.5f).statusEffect(new
+                        StatusEffectInstance(StatusEffects.ABSORPTION, 600, 0), 1.0f).meat().build())));
         LIVING_SALO = registerItem("living_salo", new LivingSaloItem(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
                         FoodComponent.Builder().hunger(-8).saturationModifier(-10f).meat().statusEffect(new
                         StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1.0f).alwaysEdible().build())));
@@ -58,23 +61,25 @@ public class ModItems {
                         FoodComponent.Builder().hunger(6).saturationModifier(8f).meat().statusEffect(new
                         StatusEffectInstance(StatusEffects.HUNGER, 300, 0), 0.6f).build())));
         VEGAN_SALO = registerItem("vegan_salo", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(6).saturationModifier(10f).build())));
+                        FoodComponent.Builder().hunger(6).saturationModifier(10f).build())));
         SUPER_SMALL_SALO = registerItem("super_small_salo", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(2).saturationModifier(5f).meat().statusEffect(new
-                StatusEffectInstance(Salo.SMALL, 1200, 0), 1.0f).alwaysEdible().snack().build())));
+                        FoodComponent.Builder().hunger(2).saturationModifier(5f).meat().statusEffect(new
+                        StatusEffectInstance(Salo.SMALL, 1200, 0), 1.0f).alwaysEdible().snack().build())));
         SUPER_BIG_SALO = registerItem("super_big_salo", new SuperBigSaloItem(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(99).saturationModifier(999f).meat().build())));
+                        FoodComponent.Builder().hunger(99).saturationModifier(999f).meat().build())));
         STONE_SALO = registerItem("stone_salo", new StoneSaloItem(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().build())));
+                        FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().build())));
         AEGISALO = registerItem("aegisalo", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(2).saturationModifier(5f).meat().statusEffect(new
-                StatusEffectInstance(Salo.UNDYING, 6000, 0), 1.0f).alwaysEdible().build())));
+                        FoodComponent.Builder().hunger(2).saturationModifier(5f).meat().statusEffect(new
+                        StatusEffectInstance(Salo.UNDYING, 6000, 0), 1.0f).alwaysEdible().build())));
         TRANSPARENT_SALO = registerItem("transparent_salo", new Item(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(5).saturationModifier(8f).meat().statusEffect(new
-                StatusEffectInstance(StatusEffects.INVISIBILITY, 3600, 0), 1.0f).alwaysEdible().build())));
+                        FoodComponent.Builder().hunger(5).saturationModifier(8f).meat().statusEffect(new
+                        StatusEffectInstance(StatusEffects.INVISIBILITY, 3600, 0), 1.0f).alwaysEdible().build())));
         DEAD_SALO = registerItem("dead_salo", new DeadSaloItem(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
-                FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().meat().statusEffect(new
-                StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 20, 20), 1.0f).build())));
+                        FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().meat().statusEffect(new
+                        StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 20, 20), 1.0f).build())));
+        SWEET_SALO = registerItem("salo", new SaloItem(new FabricItemSettings().group(ModItemGroup.SALO_FOOD).food(new
+                        FoodComponent.Builder().hunger(14).saturationModifier(18f).meat().build())));
     }
 
     private static Item registerItem(String name, Item item){
